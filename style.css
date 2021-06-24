@@ -1,0 +1,46 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  color: blanchedalmond;
+  font-size: 2rem;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #e9492c;
+  border-color: #e9492c;
+}
+
+.btn-primary:hover{
+  background-color: #e05f44;
+  border-color: #e05f44;
+  border-width: 1px;
+}
+hr{
+  max-width: 80px;
+  border-color: #e9492c;
+  border-width: 3px;
+}
+.buffer{
+height: 10rem;
+}
+
+.row{
+  width: 100%;
+}
